@@ -19,8 +19,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./figures/training_class_examples.png "Training Examples"
-[image2]: ./figures/Normalization_example.png "Normalization"
+[image1]: ./figures/training-class-examples.png "Training Examples"
+[image2]: ./figures/normalization-example.png "Normalization"
 [image4]: ./net-images/class-41.jpg "Traffic Sign 41"
 [image5]: ./net-images/class-29.jpg "Traffic Sign 29"
 [image6]: ./net-images/class-42.png  "Traffic Sign 42"
@@ -182,9 +182,14 @@ With this final architecture, I trained for 20 epochs and saved the best perform
 
 Here are eight German traffic signs that I found on the web:
 
-![Class 41][image4] ![Class 29][image5] ![Class 42][image6] 
-![Class 24][image7] ![Class 37][image8] ![Class 32][image9]
-![Class 0][image10] ![Class 39][image11] 
+<img src="./net-images/class-41.jpg" width="64" height="64">
+<img src="./net-images/class-29.jpg" width="64" height="64">
+<img src="./net-images/class-42.jpg" width="64" height="64">
+<img src="./net-images/class-24.jpg" width="64" height="64">
+<img src="./net-images/class-37.jpg" width="64" height="64">
+<img src="./net-images/class-32.jpg" width="64" height="64">
+<img src="./net-images/class-0.jpg" width="64" height="64">
+<img src="./net-images/class-39.jpg" width="64" height="64">
 
 These images taken from the internet all have one thing in common: they included "stock photo" watermarks as artifacts peppered all over the image. If downsampling doesn't do away with most of these artifacts, then the added input noise may be more than what trained network is robust to. However, the greater factor for misclassification is that all 8 images represent under-trained classes (i.e. under ~1% of the training set), which happened to also be under-represented in the validation and test set. These are therefore the most difficult classify correctly for my model because they were not seen nearly as often as other classes.
 The speed limit sign shares a lot in common with the more well-represented other speed limit classes, so this may be easier to classify if the model learned to generalize features across speed limit signs.
