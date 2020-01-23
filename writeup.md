@@ -184,7 +184,7 @@ Here are eight German traffic signs that I found on the web:
 
 <img src="./net-images/class-41.jpg" width="64" height="64">
 <img src="./net-images/class-29.jpg" width="64" height="64">
-<img src="./net-images/class-42.jpg" width="64" height="64">
+<img src="./net-images/class-42.png" width="64" height="64">
 <img src="./net-images/class-24.jpg" width="64" height="64">
 <img src="./net-images/class-37.jpg" width="64" height="64">
 <img src="./net-images/class-32.jpg" width="64" height="64">
