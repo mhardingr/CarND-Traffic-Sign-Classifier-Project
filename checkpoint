@@ -1,0 +1,6 @@
+model_checkpoint_path: "TSNet-vacc-0.970"
+all_model_checkpoint_paths: "TSNet-vacc-0.950"
+all_model_checkpoint_paths: "TSNet-vacc-0.954"
+all_model_checkpoint_paths: "TSNet-vacc-0.958"
+all_model_checkpoint_paths: "TSNet-vacc-0.964"
+all_model_checkpoint_paths: "TSNet-vacc-0.970"
